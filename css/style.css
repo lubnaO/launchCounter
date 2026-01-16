@@ -1,0 +1,87 @@
+body{
+    /* background-color:   hsl(236, 21%, 26%); */
+  background-color:  hsl(235, 16%, 14%);
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&display=swap');
+
+}
+section{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.footer-bakcground{
+    position: absolute;
+    background-image: url(../images/pattern-hills.svg);
+    bottom: 0;
+    width: 100%;
+    height: 140px ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.star-background{
+    position: absolute;
+    background-image: url(../images/bg-stars.svg);
+    width: 100%;
+    height: 100% ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-content h1{
+    text-align: center;
+    margin: 30px 0;
+    color: white;
+  font-family: "Almarai", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.boxes{
+ display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;   
+}
+.box-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-content div{
+    background-color: hsl(236, 21%, 26%);
+    padding: 15px;
+    border-radius: 5px;
+    color: hsl(345, 95%, 68%);
+    font-weight: 700;
+    font-size: 75px;
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-content span{
+    color: white;
+    font-size: 25px;
+     font-family: "Almarai", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+}
+.footer ul{
+display: flex;
+}
+.footer ul li{
+margin: 10px;
+cursor: pointer;
+list-style: none;
+}
